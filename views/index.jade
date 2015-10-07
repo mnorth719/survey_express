@@ -1,5 +1,52 @@
-extends layout
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
 
-block content
-  h1= title
-  p Welcome to #{title}
+    h1 Rate Your iOS Guy!
+    p Hello! Thanks for taking the time to complete this. Please answer the following questions as honestly as you can. All submissions are anonymous. The purpose of this is for me to get a gauge on things I'm doing well and things I can work on. Thanks!
+
+    br 
+    br 
+
+    p What things do you feel I do well? 
+    form 
+      textarea(
+        name="Text1", 
+        cols="80", 
+        rows="10"
+      )
+    br
+    br
+    p What things do you feel I need to work on? 
+    form 
+      textarea(
+        name="Text1", 
+        cols="80", 
+        rows="10"
+      )
+    br
+    br
+    p What 3 adjectives would you use to describe me at work? 
+    form 
+      textarea(
+        name="Text1", 
+        cols="80", 
+        rows="10"
+      )
+    br
+    br
+    p Any additonal comments or advice? 
+    form 
+      textarea(
+        name="Text1", 
+        cols="80", 
+        rows="10"
+      )
+    br
+    br
+
+
+

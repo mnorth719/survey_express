@@ -1,7 +1,26 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
 }
+
+h1 {
+  padding: 50px;
+  font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  margin: auto;
+  width: 25%;
+}
+
 a {
   color: #00b7ff;
+}
+
+body {
+	background-color: #858585;
+	text-shadow: 1px 1px #212121;
+}
+
+textarea {
+    resize: none;
 }
